@@ -1,1 +1,1 @@
-# https://nandabeirao.github.io/appcalculadoracostura/
+# https://nandabeirao.github.io/appcostura/
