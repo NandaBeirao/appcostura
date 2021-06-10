@@ -7,13 +7,13 @@ function imc () {
 
     if (nome !== '' && peso !== '') {
 
-        const valorIMC = (peso / Math.PI).toFixed(1);
+        const valorIMC = (peso * Math.PI).toFixed(1);
 
         let classificacao = '';
 
  
 
-        resultado.textContent = `${nome}, faça um círculo de ${valorIMC} cm de diâmetro para que a fita de a volta exata`;
+        resultado.textContent = `${nome} corte ${valorIMC} cm de pano para dar a volta no círculo`;
         
     }else {
         resultado.textContent = 'Preencha todos os campos!!!';
