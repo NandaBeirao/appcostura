@@ -13,7 +13,7 @@ function imc () {
 
  
 
-        resultado.textContent = `${nome} corte ${valorIMC} cm de pano para dar a volta no círculo`;
+        resultado.textContent = `${nome}, faça uma circunferencia com ${valorIMC} cm de diâmetro para que a fita de a volta completa `;
         
     }else {
         resultado.textContent = 'Preencha todos os campos!!!';
