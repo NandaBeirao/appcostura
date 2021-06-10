@@ -13,7 +13,7 @@ function imc () {
 
  
 
-        resultado.textContent = `${nome} faça um círculo de ${valorIMC} cm de diâmetro `;
+        resultado.textContent = `${nome}, faça um círculo de ${valorIMC} cm de diâmetro para que a fita de a volta exata`;
         
     }else {
         resultado.textContent = 'Preencha todos os campos!!!';
